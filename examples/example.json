@@ -1,0 +1,20 @@
+{
+  "tool": "picture-hanging-helper",
+  "version": 1,
+  "plans": [
+    {
+      "name": "Living room gallery",
+      "unit": "cm",
+      "wall": 300,
+      "fw": 40,
+      "fh": 50,
+      "cols": 3,
+      "rows": 1,
+      "gapx": 10,
+      "gapy": 10,
+      "top": 180,
+      "hookx": 20,
+      "hooky": 5
+    }
+  ]
+}
