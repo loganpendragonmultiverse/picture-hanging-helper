@@ -1,8 +1,8 @@
 # Picture Hanging Helper
 
-Plan a centered row or regular grid of equal-size frames. Enter the hook position measured from each frame’s top-left corner. Verify your actual hardware before drilling.
+Plan a centered row or regular grid of equal-size frames. Enter the hook position measured from each frameâ€™s top-left corner. Verify your actual hardware before drilling.
 
-This is a small, local-first browser tool for household measurements. Version 1.0.0 is a release candidate until its independent review and package verification are recorded.
+This is a small, local-first browser tool for household measurements.
 
 ## Start in three minutes
 
@@ -31,15 +31,16 @@ Measurements are rectangular and user supplied. Results cannot establish physica
 
 ## Development and contributions
 
-Node.js 22 or newer and Python 3 are used for tests and packaging. No npm runtime or development dependencies are needed.
+Node.js 22 or newer and Python 3 are used for tests and packaging. Run `npm ci` to install the pinned development tools before running the checks below. The distributed browser app has no runtime dependencies.
 
 ```sh
+npm ci
 npm test
 npm run check
 npm run build
 ```
 
-The build creates `dist/index.html`, `dist/picture-hanging-helper-1.0.0.zip` and `dist/SHA256SUMS`. See [TESTING.md](TESTING.md), [DEVELOPMENT.md](DEVELOPMENT.md) and [CONTRIBUTING.md](CONTRIBUTING.md). Supported behavior is defined by the tests and documented acceptance flows; browser/platform results belong in the release evidence rather than assumed compatibility claims.
+The build creates `dist/index.html`, `dist/picture-hanging-helper-1.0.1.zip` and `dist/SHA256SUMS`. See [TESTING.md](TESTING.md), [DEVELOPMENT.md](DEVELOPMENT.md) and [CONTRIBUTING.md](CONTRIBUTING.md). Supported behavior is defined by the tests and documented acceptance flows; browser/platform results belong in the release evidence rather than assumed compatibility claims.
 
 MIT licensed. Fixes and useful ideas are welcome; no response or maintenance schedule is promised.
 
